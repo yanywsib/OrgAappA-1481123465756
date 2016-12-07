@@ -24,6 +24,8 @@ public class SimpleServlet extends HttpServlet {
         response.getWriter().print("Hello World!\n");
         response.getWriter().print("If you can see this, you are on the right track!\n");
         
+        System.out.println("Show me what happened in ths log file!");
+        
     }
 
 }
